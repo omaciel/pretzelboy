@@ -1,16 +1,7 @@
-# this enables the feed plugin
-plugins:flashbake.plugins.feed:Feed
-# these three lines are used by the feed plugin, see the Plugins page for more info
-feed_url:http://www.ogmaciel.com/feed
-feed_limit: 1
-
 plugins:flashbake.plugins.weather:Weather
 weather_city:Chapel Hill
 
-plugins:flashbake.plugins.microblog:Twitter
-twitter_user:OgMaciel
-twitter_limit:3
-
 plugins:flashbake.plugins.music:Banshee
+banshee_limit:1
 
 wife.txt
